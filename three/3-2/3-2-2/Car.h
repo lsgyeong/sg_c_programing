@@ -1,5 +1,5 @@
 // Car.h
-
+// 헤더파일의 중복포함을 막기위해 사용하는 매크로
 #ifndef __CAR_H__
 #define __CAR_H__
 

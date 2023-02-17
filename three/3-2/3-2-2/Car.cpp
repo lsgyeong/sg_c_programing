@@ -2,7 +2,12 @@
 
 #include <iostream>
 #include <cstring>
-#include "Car.h"
+#include "Car.h" 
+/*
+    멤버함수 정의부분을 컴파일 하는데 클래스의 선언정보 필요
+    멤버함수에 접근하는 변수의 존재유무를 확인하기 위해
+    이름 공간 CAR_CONST에 선언된 상수의 사용을 위해 포함되어야함.
+*/
 using namespace std;
 
 void Car::InitMembers(const char *ID, int fuel) {
