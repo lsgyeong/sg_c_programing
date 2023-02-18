@@ -26,6 +26,7 @@ public:
 
 int main(void)
 {
+    /* 멤버변수가 public으로 선언되면 구조체 변수 초기화하듯 초기화 가능 */
     Point pos1={-2,4};
     Point pos2={5,9};
     Rectangle rec={pos2, pos1};

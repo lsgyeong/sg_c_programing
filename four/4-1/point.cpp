@@ -4,7 +4,7 @@ using namespace std;
 
 bool Point::InitMembers(int xpos, int ypos)
 {
-    if(xpos<0 || ypos<0)
+    if(xpos<0 || ypos<0) // || = or
     {
         cout<<"벗어난 범위의 값 전달"<<endl;
         return false;
