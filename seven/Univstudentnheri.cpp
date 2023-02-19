@@ -8,7 +8,7 @@ private:
     int age;
     char name[50];
 public:
-    Person(int myage, char *myname) : age(myage) //p.180 멤버 이니셜라이저를 이용한 변 수 및 상수 초기화
+    Person(int myage, char *myname) : age(myage) 
     {
         strcpy(name,myname);
     }

@@ -31,8 +31,8 @@ public:
 class EmployeeHandler
 {
 private:
-    PermanentWorker* emplist[50];
-    int empNum;
+    PermanentWorker* emplist[50]; // PermanentWorker 객체의 저장을 위한 배열
+    int empNum;                   //배열에 저장된 객체의 수를 세기위한 정수형 변수
 public:
     EmployeeHandler() : empNum(0)
     { }
